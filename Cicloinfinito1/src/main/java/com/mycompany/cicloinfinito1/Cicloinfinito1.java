@@ -8,9 +8,18 @@ package com.mycompany.cicloinfinito1;
  *
  * @author abner
  */
-public class Cicloinfinito1 {
-
+public class CicloInfinito {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        while (true) {
+            // Este es un ciclo infinito
+            // Aquí se pueden agregar instrucciones para que se ejecuten indefinidamente
+            metodoVacio();
+        }
+    }
+
+    public static void metodoVacio() {
+        // Este es un método vacío que no hace nada
+        // Aquí se pueden agregar instrucciones si se desea
     }
 }
+
